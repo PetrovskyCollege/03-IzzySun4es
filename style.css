@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Sans-Serif;
+}  
+a {
+    color: #78b941; 
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+.form {
+    width: 300px; 
+    margin: 0 auto;
+}
+input[type='text'], input[type = 'password'] {
+    width: 200px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    color: #333; 
+    font-size: 14px; 
+    margin-top: 10px;
+}
