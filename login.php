@@ -15,7 +15,7 @@ if($login){
       }
 else
       {  
-echo "Login Failed!";
+echo "Ошибка входа!";
       }  
    }  
 ?>  

@@ -5,11 +5,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 $trn_date = date("Y-m-d H:i:s");
 $register = $user->register($trn_date,$_REQUEST['name'],$_REQUEST['username'],$_REQUEST['email'],$_REQUEST['password']);
 if($register){
-echo "Registration Successful!";
+echo "Регистрация успешна!";
       }
 else
       {  
-echo "Entered email already exist!";
+echo "Этот email уже используется!";
       }  
    }  
 ?>  
