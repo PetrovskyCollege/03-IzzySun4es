@@ -26,3 +26,5 @@ $user->logout();
 </body>
   
 </html>
+<!--  почта: s@mail.ru
+      пароль: 123 -->
